@@ -1060,45 +1060,45 @@ section {
 
 
 /*--------------------------------------------------------------
-# Doctors
+# Investigadores
 --------------------------------------------------------------*/
-.doctors {
+.investigadores {
   background: #fff;
 }
 
-.doctors .member {
+.investigadores .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
   padding: 30px;
   border-radius: 10px;
 }
 
-.doctors .member .pic {
+.investigadores .member .pic {
   overflow: hidden;
   width: 180px;
   border-radius: 50%;
 }
 
-.doctors .member .pic img {
+.investigadores .member .pic img {
   transition: ease-in-out 0.3s;
 }
 
-.doctors .member:hover img {
+.investigadores .member:hover img {
   transform: scale(1.1);
 }
 
-.doctors .member .member-info {
+.investigadores .member .member-info {
   padding-left: 30px;
 }
 
-.doctors .member h4 {
+.investigadores .member h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
   color: #2c4964;
 }
 
-.doctors .member span {
+.investigadores .member span {
   display: block;
   font-size: 15px;
   padding-bottom: 10px;
@@ -1106,7 +1106,7 @@ section {
   font-weight: 500;
 }
 
-.doctors .member span::after {
+.investigadores .member span::after {
   content: "";
   position: absolute;
   display: block;
@@ -1117,19 +1117,19 @@ section {
   left: 0;
 }
 
-.doctors .member p {
+.investigadores .member p {
   margin: 10px 0 0 0;
   font-size: 14px;
 }
 
-.doctors .member .social {
+.investigadores .member .social {
   margin-top: 12px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.doctors .member .social a {
+.investigadores .member .social a {
   transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;
@@ -1140,36 +1140,18 @@ section {
   background: #a0bcd5;
 }
 
-.doctors .member .social a i {
+.investigadores .member .social a i {
   color: #fff;
   font-size: 16px;
   margin: 0 2px;
 }
 
-.doctors .member .social a:hover {
+.investigadores .member .social a:hover {
   background: #1977cc;
 }
 
-.doctors .member .social a+a {
+.investigadores .member .social a+a {
   margin-left: 8px;
-}
-
-
-/*--------------------------------------------------------------
-# Gallery
---------------------------------------------------------------*/
-.gallery .gallery-item {
-  overflow: hidden;
-  border-right: 3px solid #fff;
-  border-bottom: 3px solid #fff;
-}
-
-.gallery .gallery-item img {
-  transition: all ease-in-out 0.4s;
-}
-
-.gallery .gallery-item:hover img {
-  transform: scale(1.1);
 }
 
 /*--------------------------------------------------------------
